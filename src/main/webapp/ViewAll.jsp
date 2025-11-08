@@ -156,7 +156,7 @@ button {
 				<td><%=emp.getSal()%></td>
 				<td><%=emp.getPhone()%></td>
 				<td><%=emp.getEmail()%></td>
-				<td>  
+				<td>   
 				<button><a href="EditForm?eid=<%=emp.getEmpId()%>">Edit</a></button>
 				<button><a href="Delete?eid=<%=emp.getEmpId()%>">Delete</a></button>
 				</td>
