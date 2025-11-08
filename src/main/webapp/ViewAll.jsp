@@ -9,7 +9,7 @@
 <title>Employee Details</title>
 
 <style>
-/* ---------- GLOBAL ---------- */
+
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	background: white;
@@ -26,7 +26,7 @@ h2 {
 	letter-spacing: 1px;
 }
 
-/* ---------- CONTAINER ---------- */
+
 .table-container {
 	width: 85%;
 	margin: 40px auto;
@@ -70,7 +70,7 @@ to {
 	box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
 }
 
-/* ---------- TABLE ---------- */
+
 table {
 	width: 100%;
 	border-collapse: collapse;
@@ -165,10 +165,8 @@ button {
 			}
 			%>
 
-		</table>
+		</table> 
 	</div>
-
-	<!-- ---------- SIMPLE SEARCH SCRIPT ---------- -->
 	<script>
     function searchTable(value) {
         const rows = document.querySelectorAll("#employeeTable tr:not(:first-child)");
